@@ -28,5 +28,11 @@ hpipeline {
                 echo 'Hello from github'
             }
         }
+        stage('display message bye')
+        {
+            steps {
+                echo 'bye from github'
+            }
+        }
     }
 }
