@@ -1,4 +1,4 @@
-pipeline {
+hpipeline {
     agent any
     tools {
         jdk 'JDK21'
@@ -22,7 +22,7 @@ pipeline {
                 sh 'cd src && java application/Test'
             }
         }
-        stage('display message')
+        stage('display message helloooo')
         {
             steps {
                 echo 'Hello from github'
